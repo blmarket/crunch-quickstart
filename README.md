@@ -3,8 +3,8 @@ Crunch-quickstart
 
 Fastest way to start big data application using
 
-  * scala
-  * apache crunch
+* scala
+* apache crunch
 
 ## HOWTO
 
@@ -26,3 +26,8 @@ $ hbase [className]
 ### IDE integration
 
 Coming soon for IntelliJ IDE!
+
+## TODO
+
+* Add hbase table template.
+* Add hadoop example text file.
