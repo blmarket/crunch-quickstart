@@ -5,7 +5,7 @@
     <artifactId>crunch-quickstart</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <properties>
-        <scala.version>2.10.4</scala.version>
+        <scala.version>2.9.2</scala.version>
         <crunch.version>0.8.2-hadoop2</crunch.version>
         <hadoop.version>2.0.0-cdh4.4.0</hadoop.version>
         <hbase.version>0.94.6-cdh4.4.0</hbase.version>
@@ -25,6 +25,11 @@
         </dependency>
         <dependency>
             <groupId>org.apache.crunch</groupId>
+            <artifactId>crunch-scrunch</artifactId>
+            <version>${crunch.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.crunch</groupId>
             <artifactId>crunch-core</artifactId>
             <version>${crunch.version}</version>
         </dependency>
@@ -36,11 +41,6 @@
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-compiler</artifactId>
-            <version>${scala.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.scala-lang</groupId>
-            <artifactId>scala-reflect</artifactId>
             <version>${scala.version}</version>
         </dependency>
         <dependency>
